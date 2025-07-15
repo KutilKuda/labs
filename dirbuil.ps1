@@ -12,4 +12,4 @@ echo $path
 mkdir $path
 cd $path
 echo "" > poc.txt 
-cd C:\Users\ssriy\Downloads\pengerat
+cd C:\Users\%username%\Downloads\pengerat
